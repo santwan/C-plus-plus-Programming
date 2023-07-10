@@ -1,7 +1,7 @@
 //array ->        2 4 6 8 4 0
 //Reversing ->    0 4 8 6 4 2
 //Reverse(1,3)->  0 6 8 4 4 2
-
+//It is a very good example
 
 #include<bits\stdc++.h>
 #include<vector>
