@@ -20,7 +20,3 @@ void display_array(vector<int>&v){
         cout<<v.at(i)<<" " ;
     }
 }
-
-int main(){
-     cout<<""
-}
