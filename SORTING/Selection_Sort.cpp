@@ -22,7 +22,7 @@ after swapping the array looks kind of like this -->  1 3 2 6 5 ( swap b/w 1 & 5
 ARRAY SORTED = 1 2 3 5 6
 >> Observation  <<
 >> Array Size = 5 , Total Number of Steps = 4 
->> Outer Loop Runs 4 times from 0 to 4 3 index  >> As Outer loop is for only selection of first index of UNSORTED ARRAY
+>> Outer Loop Runs 4 times from 0 to 3 index  >> As Outer loop is for only selection of first index of UNSORTED ARRAY
 >> Inner loop Runs 4 times from 0 to last 4 index >> aS Inner loop is for searching the smallest element within whole array
 
 Now Find the smallest element within the array selected box
@@ -36,7 +36,7 @@ int main(){
     int arr[] = {5,4,3,2,1} ;
     int n = 5 ;
     for( int ele : arr ){
-        cout<<ele<<" " ; // for rach loop
+        cout<<ele<<" " ; // for each loop
     }
 
 
