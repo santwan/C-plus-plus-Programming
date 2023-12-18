@@ -68,11 +68,18 @@ using namespace std ;
 
 int power(int base, int exponent){
 
-     if(exponent == 1) return base;
+     if(exponent == 0) return 1;
 
-     if(exponent % 2 == 0) return power(base, exponent/2)*power(base,exponent/2);
+     if(exponent % 2 == 0) {
+          int halfPower = power(base, exponent/2) ;
+          return halfPower*halfPower;
+     }
 
-     if(exponent % 2 != 0) return (power(base, exponent/2)*power(base,exponent/2)*2);
+
+     if(exponent % 2 != 0) {
+          int halfPower = power(base, exponent/2) ;
+          return base*halfPower*halfPower;
+     }
 
 }
 
