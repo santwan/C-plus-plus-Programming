@@ -107,7 +107,7 @@ int main(){
         int actual_index = v.size() - count - i ;
 
         if ( actual_index == 0 ){
-            ifb
+        
         }
     }
 

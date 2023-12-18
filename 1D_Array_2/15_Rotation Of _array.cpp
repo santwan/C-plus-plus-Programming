@@ -16,7 +16,6 @@ k can be greater than n as well where n is the size of the array
 
 
 
--*/-
 
 
 
