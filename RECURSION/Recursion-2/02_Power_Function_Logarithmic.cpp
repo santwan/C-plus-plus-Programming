@@ -11,9 +11,9 @@
 16 --> 8 --> 4 --> 2
 
 SO GENARALISATION FORMULA :
-power(x,n) = power(x,n/2) + power(x,n/2)
+power(x,exponent) = power(x,exponent/2) + power(x,exponent/2)
 But it willl give us a very bad time complexity , so to improve TC 
-int ans = power(x,n/2)
+int ans = power(x,exponent/2)
 return ans+ans
 But this will work only specific cases, Lets see.............
 
